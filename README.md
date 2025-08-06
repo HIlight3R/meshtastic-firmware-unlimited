@@ -21,6 +21,16 @@
 	<a href="https://meshtastic.org/docs/">Documentation</a>
 </div>
 
+---
+
+> [!WARNING]
+> This is a modified firmware that if configured incorrectly may violate the laws of your country or damage your equipment. Use at your own risk, the author does not bear any responsibility.
+
+### Changes compared to the official firmware
+- Increased TX power up to 37 dBm (~5W) for sub-GHz presets, up to 30 dBm (1W) for 2.4GHz preset.
+
+---
+
 ## Overview
 
 This repository contains the official device firmware for Meshtastic, an open-source LoRa mesh networking project designed for long-range, low-power communication without relying on internet or cellular infrastructure. The firmware supports various hardware platforms, including ESP32, nRF52, RP2040/RP2350, and Linux-based devices.
