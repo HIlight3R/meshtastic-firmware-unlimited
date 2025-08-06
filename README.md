@@ -28,6 +28,7 @@
 
 ### Changes compared to the official firmware
 - Increased TX power up to 37 dBm (~5W) for sub-GHz presets, up to 30 dBm (1W) for 2.4GHz preset.
+- Audio now permitted for all regions.
 
 ---
 
