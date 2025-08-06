@@ -29,6 +29,8 @@
 ### Changes compared to the official firmware
 - Increased maximum TX power up to 37 dBm (~5W) for sub-GHz presets, up to 30 dBm (1W) for 2.4GHz preset.
 - Audio now permitted for all regions.
+- Separated build environments for Windows-1250 and Windows-1251 locales for every device using InkHUD.
+- Included additional Channel (2-7) applets for InkHUD.
 
 ---
 
