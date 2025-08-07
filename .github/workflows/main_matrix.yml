@@ -11,6 +11,7 @@ on:
       - event/*
     paths-ignore:
       - "**.md"
+      - "**.yml"
       - version.properties
 
   # Note: This is different from "pull_request". Need to specify ref when doing checkouts.
@@ -21,7 +22,7 @@ on:
       - event/*
     paths-ignore:
       - "**.md"
-      #- "**.yml"
+      - "**.yml"
 
   workflow_dispatch:
 
