@@ -23,20 +23,20 @@
 
 ---
 
+## Changes compared to the official firmware
 > [!WARNING]
 > This is a modified firmware that if configured incorrectly may violate the laws of your country or damage your equipment. Use at your own risk, the author does not bear any responsibility.
-
-### Changes compared to the official firmware
 - Increased maximum TX power up to 37 dBm (~5W) for sub-GHz presets, up to 30 dBm (1W) for 2.4GHz preset.
 - Audio now permitted for all regions.
 - Separated build environments for Windows-1250 and Windows-1251 locales for every device using InkHUD.
 - Included additional Channel (2-7) applets for InkHUD.
+- Added bigger Russian fonts and fixed string width calculation (by [@mrekin](https://github.com/mrekin), see meshtastic/firmware#7498)
 
 ---
 
 ## Overview
 
-This repository contains the official device firmware for Meshtastic, an open-source LoRa mesh networking project designed for long-range, low-power communication without relying on internet or cellular infrastructure. The firmware supports various hardware platforms, including ESP32, nRF52, RP2040/RP2350, and Linux-based devices.
+This repository contains unlimited version of the official device firmware for Meshtastic, an open-source LoRa mesh networking project designed for long-range, low-power communication without relying on internet or cellular infrastructure. The firmware supports various hardware platforms, including ESP32, nRF52, RP2040/RP2350, and Linux-based devices.
 
 Meshtastic enables text messaging, location sharing, and telemetry over a decentralized mesh network, making it ideal for outdoor adventures, emergency preparedness, and remote operations.
 
