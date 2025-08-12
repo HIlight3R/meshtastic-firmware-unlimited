@@ -5,6 +5,9 @@
 #include "PointerQueue.h"
 #include "configuration.h"
 
+// Disable all forced region limits (power_limit, audio_permitted)
+#define NO_REGION_LIMITS true
+
 // Map from old region names to new region enums
 struct RegionInfo {
     meshtastic_Config_LoRaConfig_RegionCode code;
