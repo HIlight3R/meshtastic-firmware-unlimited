@@ -30,7 +30,6 @@
 - Audio now permitted for all regions.
 - Separated build environments for Windows-1250 and Windows-1251 locales for every device using InkHUD.
 - Included additional Channel (2-7) applets for InkHUD.
-- Added bigger Russian fonts and fixed string width calculation (by [@mrekin](https://github.com/mrekin), see meshtastic/firmware#7498)
 
 ---
 
